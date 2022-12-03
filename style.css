@@ -59,7 +59,7 @@ button {
     background-color: var(--White);
     padding: 1rem 5rem;
     border-radius: 50px;
-    font-family: inherit;
+    font-family: var(--ff-body);
     box-shadow: 0 2px 3px rgb(103, 101, 101);   
 }
 button:hover {
