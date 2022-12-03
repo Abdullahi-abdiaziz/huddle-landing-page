@@ -44,12 +44,13 @@ p, h1 {
 }
 h1 {
     color: var(--White);
-    font-family: var(--ff-heading);
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     font-weight: var(--fw-bold);
 }
 
 p {
+    font-family: var(--ff-body);
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.6rem;
     padding: 2rem .5rem;
@@ -59,7 +60,7 @@ button {
     background-color: var(--White);
     padding: 1rem 5rem;
     border-radius: 50px;
-    font-family: var(--ff-body);
+    font-family: 'Poppins', sans-serif;
     box-shadow: 0 2px 3px rgb(103, 101, 101);   
 }
 button:hover {
@@ -111,7 +112,7 @@ main {
         text-align: left;
     }
     h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
     .container {
         padding: 4rem;
